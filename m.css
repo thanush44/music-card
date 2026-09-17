@@ -1,0 +1,34 @@
+body {
+    background-color: rgb(19, 19, 89);
+}
+
+.card {
+    background-color: rgb(11, 122, 220);
+    width: 250px;
+    height: 300px;
+    margin: 150px auto 0;
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.866);
+    
+    text-align: center;
+}
+
+.img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.866);
+}
+.bt{
+    display: flex;
+    flex-direction: column;
+}
+.mu{
+    width: 250px;
+    margin-top:30px;
+    height: 50px;
+}
